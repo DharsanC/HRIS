@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Candidate List</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="candidate.css">
+</head>
+
+<body>
+
+<header class="head">
+
+<h2 class="header">Your Hiring Dashboard</h2>
+
+<button class="burgerBtn">
+<span class="layer"></span>
+<span class="layer midLayer"></span>
+<span class="layer"></span>
+</button>
+
+</header>
+
+<div class="container">
+<aside class="sidebar">
+
+<ul>
+<li><a href="file:///C:/Users/user/Documents/index.html" class="link"><i class="ri-file-text-line"></i>Job Post</a></li>
+<li><a href="file:///C:/Users/user/Documents/candidate.html" class="link active"><i class="ri-list-view"></i>Candidate List</a></li>
+</ul>
+
+</aside>
+
+<main class="mainContent">
+
+<div class="containCandidates">
+
+<div class="candidate">
+<div class="info">
+<h3 class="candidateName">Dharsan C</h3>
+<p>Applyed for Web Developer Job</p>
+<p>Full Time</p>
+<p>Remote</p>
+<p>Resume</p>
+</div>
+<div class="profileButton">
+<button id="profileBtn" onclick="viewProfile1()">Profile</button>
+</div>
+</div>
+
+<div class="candidate">
+<div class="info">
+<h3 class="candidateName">Dharanikumar N</h3>
+<p>Applyed for Web Developer Job</p>
+<p>Full Time</p>
+<p>Remote</p>
+<p>Resume</p>
+</div>
+<div class="profileButton">
+<button id="profileBtn" onclick="viewProfile2()">Profile</button>
+</div>
+</div>
+
+
+<div class="candidate">
+<div class="info">
+<h3 class="candidateName">Aadhitian M</h3>
+<p>Applyed for Web Developer Job</p>
+<p>Full Time</p>
+<p>Remote</p>
+<p>Resume</p>
+</div>
+<div class="profileButton">
+<button id="profileBtn" onclick="viewProfile3()">Profile</button>
+</div>
+</div>
+
+<div class="candidate">
+<div class="info">
+<h3 class="candidateName">Gopinath R</h3>
+<p>Applyed for Web Developer Job</p>
+<p>Full Time</p>
+<p>Remote</p>
+<p>Resume</p>
+</div>
+<div class="profileButton">
+<button id="profileBtn" onclick="viewProfile4()">Profile</button>
+</div>
+</div>
+
+<div class="candidate">
+<div class="info">
+<h3 class="candidateName">Vijaykumar S</h3>
+<p>Applyed for Web Developer Job</p>
+<p>Full Time</p>
+<p>Remote</p>
+<p>Resume</p>
+</div>
+<div class="profileButton">
+<button id="profileBtn" onclick="viewProfile5()">Profile</button>
+</div>
+</div>
+
+
+</div>
+
+</main>
+
+</div>
+
+
+
+<div class="containProfiles">
+
+<div class="profile profileOne">
+<button id="aeroBtn" onclick="viewCandidate1()"><i class="ri-close-fill" id="aero"></i></button>
+<div class="profileContent">
+<img id="candidateImg" src="file:///C:/Users/user/Documents/Websites-By-DN-Files/All-files/Boy-profile.jpeg">
+<h2>Dharsan C</h2>
+<p>Aspiring Full Stack Developer</p>
+<p>St.Josephe's College (Autonomous), Trichy</p>
+<p>B.Sc Computer Science</p>
+<p>Trichy Tamilnadu India</p>
+</div>
+</div>
+
+<div class="profile profileTwo">
+<button id="aeroBtn" onclick="viewCandidate2()"><i class="ri-close-fill" id="aero"></i></button>
+<div class="profileContent">
+<img id="candidateImg" src="file:///C:/Users/user/Documents/Websites-By-DN-Files/All-files/Boy-profile.jpeg">
+<h2>Dharanikumar N</h2>
+<p>Aspiring Full Stack Developer</p>
+<p>St.Josephe's College (Autonomous), Trichy</p>
+<p>B.Sc Computer Science</p>
+<p>Trichy Tamilnadu India</p>
+</div>
+</div>
+
+<div class="profile profileThree">
+<button id="aeroBtn" onclick="viewCandidate3()"><i class="ri-close-fill" id="aero"></i></button>
+<div class="profileContent">
+<img id="candidateImg" src="file:///C:/Users/user/Documents/Websites-By-DN-Files/All-files/Boy-profile.jpeg">
+<h2>Aadhitian M</h2>
+<p>Aspiring Full Stack Developer</p>
+<p>St.Josephe's College (Autonomous), Trichy</p>
+<p>B.Sc Computer Science</p>
+<p>Trichy Tamilnadu India</p>
+</div>
+</div>
+
+<div class="profile profileFour">
+<button id="aeroBtn" onclick="viewCandidate4()"><i class="ri-close-fill" id="aero"></i></button>
+<div class="profileContent">
+<img id="candidateImg" src="file:///C:/Users/user/Documents/Websites-By-DN-Files/All-files/Boy-profile.jpeg">
+<h2>Gopinath R</h2>
+<p>Aspiring Full Stack Developer</p>
+<p>St.Josephe's College (Autonomous), Trichy</p>
+<p>B.Sc Computer Science</p>
+<p>Trichy Tamilnadu India</p>
+</div>
+</div>
+
+<div class="profile profileFive">
+<button id="aeroBtn" onclick="viewCandidate5()"><i class="ri-close-fill" id="aero"></i></button>
+<div class="profileContent">
+<img id="candidateImg" src="file:///C:/Users/user/Documents/Websites-By-DN-Files/All-files/Boy-profile.jpeg">
+<h2>Vijaykumar S</h2>
+<p>Aspiring Full Stack Developer</p>
+<p>St.Josephe's College (Autonomous), Trichy</p>
+<p>B.Sc Computer Science</p>
+<p>Trichy Tamilnadu India</p>
+</div>
+</div>
+
+</div>
+
+
+
+</body>
+
+<script>
+
+function viewProfile1(){
+
+document.querySelector(".containCandidates").style.display="none";
+document.querySelector(".profileOne").style.display="block";
+
+}
+
+function viewCandidate1(){
+
+document.querySelector(".containCandidates").style.display="block";
+document.querySelector(".profileOne").style.display="none";
+
+}
+
+
+function viewProfile2(){
+
+document.querySelector(".containCandidates").style.display="none";
+document.querySelector(".profileTwo").style.display="block";
+
+}
+
+function viewCandidate2(){
+
+document.querySelector(".containCandidates").style.display="block";
+document.querySelector(".profileTwo").style.display="none";
+
+}
+
+
+function viewProfile3(){
+
+document.querySelector(".containCandidates").style.display="none";
+document.querySelector(".profileThree").style.display="block";
+
+}
+
+function viewCandidate3(){
+
+document.querySelector(".containCandidates").style.display="block";
+document.querySelector(".profileThree").style.display="none";
+
+}
+
+
+
+function viewProfile4(){
+
+document.querySelector(".containCandidates").style.display="none";
+document.querySelector(".profileFour").style.display="block";
+
+}
+
+function viewCandidate4(){
+
+document.querySelector(".containCandidates").style.display="block";
+document.querySelector(".profileFour").style.display="none";
+
+}
+
+
+function viewProfile5(){
+
+document.querySelector(".containCandidates").style.display="none";
+document.querySelector(".profileFive").style.display="block";
+
+}
+
+function viewCandidate5(){
+
+document.querySelector(".containCandidates").style.display="block";
+document.querySelector(".profileFive").style.display="none";
+
+}
+
+
+let button = document.querySelector(".burgerBtn");
+
+let menu = document.querySelector(".sidebar");
+
+button.addEventListener("click",()=>{
+
+button.classList.toggle("active");
+menu.classList.toggle("active");
+
+})
+
+
+</script>
+
+</html>

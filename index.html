@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Job Post</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<header class="head">
+
+<h2 class="header">Your Hiring Dashboard</h2>
+
+<button class="burgerBtn">
+<span class="layer"></span>
+<span class="layer midLayer"></span>
+<span class="layer"></span>
+</button>
+
+</header>
+
+<div class="container">
+<aside class="sidebar">
+
+<ul>
+<li><a href="file:///C:/Users/user/Documents/InternTask.html" class="link active"><i class="ri-file-text-line"></i>Job Post</a></li>
+<li><a href="file:///C:/Users/user/Documents/candidate.html" class="link"><i class="ri-list-view"></i>Candidate List</a></li>
+</ul>
+
+</aside>
+
+<main class="mainContent">
+
+<div class="containForm">
+
+<form class="form" action="candidate.html" onsubmit=" submitForm()">
+
+<h2>Job Posting Submission Form</h2>
+
+<div class="field">
+
+<input type="date" id="jobDate" required>
+
+<input  placeholder="Title" id="title" required></input>
+
+<select id="selects" required>
+
+<option value="">Select Department</option>
+<option value="CS">Computer Science</option>
+<option value="CA">Computer Application</option>
+<option value="AI">AI</option>
+<option value="Commerce">Commerce</option>
+
+</select>
+
+<select id="selects" required>
+
+<option value="">Select Job Type</option>
+<option value="Full Time">Full Time</option>
+<option value="Part Time">Part Time</option>
+<option value="Internship">Internship</option>
+<option value="Contract">Contract</option>
+<option value="Temporary">Temporary</option>
+<option value="Freelance">Freelance</option>
+
+</select>
+
+<input placeholder="Location" id="locate" required></input>
+
+<input type="number" placeholder="Salary" id="salary" required></input>
+
+<input placeholder="Openings" id="open" required></input>
+
+<textarea placeholder="Description" id="descript" required></textarea>
+
+<input placeholder="Requirments" id="require" required></input>
+
+<input placeholder="Deadline" id="deadline" required></input>
+<br>
+<button id="postBtn" type="submit"><span>Post</span></button>
+
+</div>
+
+</form>
+
+</div>
+
+</main>
+
+</div>
+
+</body>
+<script>
+
+
+function submitForm(){
+alert("Job Posted Successfully.");
+}
+
+let button = document.querySelector(".burgerBtn");
+
+let menu = document.querySelector(".sidebar");
+
+let performance = document.querySelector(".form");
+
+button.addEventListener("click",()=>{
+
+button.classList.toggle("active");
+menu.classList.toggle("active");
+
+})
+
+
+
+
+</script>
+
+</html>
